@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin-left: 6rem;
+    height: 80vh;
+    width: 85vw;
+}
+
+.no-decoration {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.title {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #132F3E;
+}
+
+.list-container {
+    margin-top: 10rem;
+}
+
+.list-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}

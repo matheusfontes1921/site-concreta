@@ -1,0 +1,53 @@
+.dashboard-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.dashboard-card {
+    background-color: #fff;
+    width: 25rem;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+}
+
+.dashboard-card > h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.card-value {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-value > span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #132F3E;
+}
+
+.card-value > p {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #132F3E;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

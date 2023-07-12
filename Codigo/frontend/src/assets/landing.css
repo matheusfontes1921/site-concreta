@@ -1,0 +1,270 @@
+.first-image-landing {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    background-size: cover;
+}
+
+.first-wave {
+    display: flex;
+    height: 100vw;
+    align-items: end;
+    justify-content: end;
+}
+
+.landing-news-item {
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    margin: 7rem 0;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.second-content {
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+}
+
+.landing-sub-title {
+    margin-bottom: 6rem;
+    margin-left: 5rem;
+    font-family: 'Poppins', Arial;
+    color: #FDBA31;
+    display: flex;
+}
+
+.landing-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    transition: 0.2s all;
+    gap: 1rem;
+}
+
+.landing-card a img {
+    width: 25rem;
+    height: 100%;
+    transition: 0.3s ease all;
+}
+
+.landing-card a img:hover {
+    box-shadow: 12px 12px 0 #FDBA31;
+    transform: translateX(-1rem);
+    cursor: pointer;
+}
+
+.landing-card p {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.landing-service-button {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-service-button button {
+    border: 2px solid #FDBA31;
+    padding: 1rem 3rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    color: #FDBA31;
+    transition: 0.2s ease all;
+    margin-bottom: 3rem;
+    background: none;
+}
+
+.landing-service-button button:hover {
+    background: #FDBA31;
+    color: #000;
+}
+
+.part-container {
+    background: #fff;
+    width: 100vw;
+    padding: 4rem 1.3rem;
+    position: absolute;
+}
+
+.prt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-left: -1rem;
+}
+
+.clients-item {
+    text-align: center;
+    width: 100%;
+}
+
+.clients-item h1 {
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    margin-top: 5rem;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.clients-container img {
+    width: 13rem;
+    height: 100%;
+}
+
+.separator {
+    margin: 12rem auto;
+    width: 50%;
+    border: 1px solid #c2c2c2;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25rem;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.location-name {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img {
+    width: 40rem;
+    height: 40rem;
+    box-shadow: 0 0 16px #c2c2c2;
+    border-radius: 1rem;
+}
+
+img.location-icon {
+    width: 3.1rem;
+    height: 4.2rem;
+}
+
+.location-name p {
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.landing-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-part-footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.first-part-footer > span {
+    margin-top: 1rem;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+
+.first-part-footer > span > span {
+    color: #FDBA31;
+    font-weight: bold;
+}
+
+.first-part-footer > img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.second-part-footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.footer-infomration {
+    display: flex;
+    gap: 1rem;
+    align-items: center;   
+    font-family: 'Lato';
+}
+
+.footer-link {
+    color: #FFF;
+    font-family: 'Lato';
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #FDBA31;
+}
+
+.footer-email-icon {
+    width: 27px;
+    height: 25px;
+}
+
+.footer-phone-icon {
+    width: 23px;
+    height: 25px;
+}
+
+.social-media {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media-icon {
+    width: 20px;
+    height: 15px;
+}
+
+.wave {
+    display: flex;
+}

@@ -1,0 +1,43 @@
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3rem;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 0 12px #c2c2c2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+aside > main {
+    padding: 0;
+    text-align: center;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.logout-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.logo-concreta {
+    width: 35px;
+    height: 35px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

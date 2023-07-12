@@ -1,0 +1,31 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Concreta
+authors:
+  - family-names: Avelar Moriya Sathler
+    given-names: Andre
+  - family-names: dos Santos Riegert
+    given-names: Gustavo Henrique
+  - family-names: Santos Rosa
+    given-names: Lucas
+  - family-names: Fontes Almeida Moreira Silva
+    given-names: Matheus
+  - family-names: Pessoa Cruz
+    given-names: Pedro Henrique
+ - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alonso Veloso
+    given-names: Eveline
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Henrique da Costa Silva
+    given-names: Luiz
+keywords:
+  - Concreta
+  - Arquitetura
+  - Urbanismo
+  - ti3
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti3-6654100-concreta.git
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2023-06-19

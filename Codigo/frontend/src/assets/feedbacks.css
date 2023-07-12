@@ -1,0 +1,14 @@
+.feedbacks-content {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+h1.feedbacks-title {
+    font-family: 'Poppins';
+}
+
+.feedbacks-title > span {
+    color: #FDBA31;
+}

@@ -1,0 +1,51 @@
+.projects-content {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+h1.projects-title {
+    font-family: 'Poppins';
+}
+
+.projects-title > span {
+    color: #FDBA31;
+}
+
+.projects-cards-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.projects-images-buttons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0.6rem;
+}
+
+button.btn-car {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.projects-car-container {
+    position: relative;
+}

@@ -1,0 +1,24 @@
+.news-list-container {
+    margin-top: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.news-title {
+    font-family: 'Poppins';
+}
+
+.news-title > h1 > span {
+    color: #FDBA31;
+}
+
+.news-container-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2.3rem;
+    row-gap: 4rem;
+}

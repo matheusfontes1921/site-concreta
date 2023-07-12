@@ -1,0 +1,47 @@
+.feedbacks-content-cards {display: flex;align-items: center;flex-wrap: wrap;gap: 1rem;margin-top: 2.3rem;row-gap: 4rem;}
+
+.feedback-card-item {
+    background: #0B1B26;
+    width: 19rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.4em;
+}
+
+.feedback-card-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+img.feedback-card-image {
+    border-radius: 50%;
+}
+
+span.feedback-card-name {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #FDBA31;
+}
+
+span.feedback-card-job {
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #FFF;
+}
+
+.feedback-card-body {
+    text-align: justify;
+    margin: 1.4rem 2rem;
+}
+
+p.feedback-text {
+    color: #FFF;
+}

@@ -1,0 +1,19 @@
+.about-content {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+h1.about-title {
+    font-family: 'Poppins';
+}
+
+p.about-text {
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.about-title > span {
+    color: #FDBA31;
+}

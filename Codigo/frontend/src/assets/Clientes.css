@@ -1,0 +1,27 @@
+.g-container{
+    text-align: center;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+/* 
+.g-item{
+  display: flex;
+} */
+  .g-item img {
+    margin-left: 0%;
+    margin-top: 5%;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  .g-item h1{
+    font-size: 20px;
+    box-shadow: inset;
+    text-align: center;
+    margin-left: 800%;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: yellow ;
+    
+  }
